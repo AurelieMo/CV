@@ -1,0 +1,21 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    font-size: 22px;
+    background-color: #0c5460;
+    width:100vh;
+}
+header{
+    height: 92vh;
+}
+.profil{
+    width: 13%;
+}
+.list-group, .list-group-item{
+    width: 100%;
+
+}
+p{
+    font-size: 20px;
+}

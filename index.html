@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mon CV bootstrap</title>
+
+    <!-- inclure le CSS Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cv.css">
+
+</head>
+<body class="container-fluid">
+    <HEADER class="row d-flex flex-column  justify-content-center align-content-center">
+        <img src="images/moi_profil.jpg" class="rounded-circle mx-auto d-block profil" alt="Photo de profil">
+        <h1  id="accueil" class="text-light text-center text-monospace ">Aurélie MORTREUX</h1>
+        <h1 class="text-light text-center text-monospace ">Développeur Web et web mobile Full-Stack</h1>
+        <h2 class="text-light text-center text-monospace">Je recherche un stage pour valider ma formation du 27 Avril au 23 Juillet 2020</h2>
+
+    </HEADER>
+    <!-- mise en place de la nav bar avec bootstrap-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark text-light bg-dark font-weight-bold col-12">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active pl-0">
+                    <a class="nav-link " href="#accueil">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active pl-3">
+                    <a class="nav-link" href="#exp12">Expériences Professionnelles</a>
+                </li>
+                <li class="nav-item active pl-3">
+                    <a class="nav-link" href="#forma1">Formation</a>
+                </li>
+                <li class="nav-item active pl-3">
+                    <a class="nav-link " href="#comp">Compétences</a>
+                </li>
+                <li class="nav-item active pl-3">
+                    <a class="nav-link " href="#certifs">Certificats</a>
+                </li>
+                <li class="nav-item active pl-3">
+                    <a class="nav-link " href="#langues">Langues</a>
+                </li>
+                <li class="nav-item active pl-3">
+                    <a class="nav-link " href="#hob">Hobbies</a>
+                </li>
+               <!-- <li class="nav-item active pl-3">
+                    <a class="nav-link" href="#">Porte-Folio</a>
+                </li>-->
+                <li class="nav-item active pl-3">
+                    <a class="nav-link" href="documents/CVweb.pdf">CV en PDF</a>
+                </li>
+            </ul>
+
+            <!--ajouts des boutons pictogrammes-->
+            <span class="text-right pl-3">
+                    <a href="https://www.viadeo.com/p/002hujt0hx0kmxf" target="blank" title="Viadeo">
+                        <img src="images/viadeoo_icon.png" alt="Viadéo" title="Mon profil Viadéo" />
+                    </a>
+                </span>
+            <span class="text-right">
+                    <a href="http://www.linkedin.com/in/aurélie-mortreux-790769a8" target="blank" title="Lnk">
+                        <img src="images/linkedin_icon.png" alt="Lnk" title="Mon profil Link" />
+                    </a>
+                </span>
+        </div>
+    </nav>
+
+   <!-- definition de ma ligne avec ma section a droite et mon aside a gauche, liste sous forme de list-group pour la mise en forme-->
+    <div class="row">
+        <section class="col-lg-5 col-sm-12 p-0">
+            <ARTICLE class="col-lg-12 col-sm-12 forma mt-3">
+                <ul class="list-group ">
+                    <li id="forma1" class="list-group-item text-light bg-dark font-weight-bold">Formations, aboutissement de mes apprentissages en ligne</li>
+                    <li class="list-group-item">
+                        <strong id="forma2" class="text-info bg-light font-weight-bold">2019: Titre professionnel Développeur Web Web mobile</strong>
+                        <p>Titre en cours d'obtention pour Octobre 2020</p>
+                    </li>
+                    <li class="list-group-item">
+                        <strong id="forma3" class="text-info bg-light font-weight-bold">2015: Diplôme Universitaire Chef de projet Web</strong>
+                        <p>En relation avec le E-commerce et le E-tourisme</p>
+                    </li>
+                    <li class="list-group-item">
+                        <strong id="forma4" class="text-info bg-light font-weight-bold">2008: BTS Assistante de direction</strong>
+                        <p>Option Gestion PME-PMI</p>
+                    </li>
+                    <li class="list-group-item">
+                        <strong id="forma5" class="text-info bg-light font-weight-bold">2001: Baccalauréat Sciences économiques et sociales </strong>
+                        <p>Option Mathématiques</p>
+                    </li>
+                </ul>
+            </ARTICLE>
+            <ARTICLE id="comp" class="competences col-lg-12 mt-3">
+                            <ul class="list-group ">
+                                <li class="list-group-item text-light bg-dark font-weight-bold">Compétences, autodidacte, je me forme facilement.</li>
+                                <li class="list-group-item text-info bg-light font-weight-bold">Front-end</li>
+                                    <div class="row w-100 p-0 m-auto">
+                                        <li class="list-group-item col-3">HTML</li>
+                                        <li class="list-group-item col-3">CSS</li>
+                                        <li class="list-group-item col-3">Javascript</li>
+                                        <li class="list-group-item col-3">Bootstrap</li>
+                                        <li class="list-group-item col-6">Flexbox</li>
+                                        <li class="list-group-item col-6">JQuery</li>
+
+                                    </div>
+
+                                <li class="list-group-item text-info bg-light font-weight-bold">Back-end</li>
+                                    <div class="row w-100 p-0 m-auto">
+                                        <li class="list-group-item col-3">PhP</li>
+                                        <li class="list-group-item col-3">Python</li>
+                                        <li class="list-group-item col-3">SQL</li>
+                                        <li class="list-group-item col-3">NodeJS</li>
+                                    </div>
+
+                                <li class="list-group-item text-info bg-light font-weight-bold">Compétences Web élargies</li>
+                                    <div class="row w-100 p-0 m-auto">
+                                        <li class="list-group-item col-3">FileZilla</li>
+                                        <li class="list-group-item col-3">Maquettage</li>
+                                        <li class="list-group-item col-3">UML</li>
+
+                                        <li class="list-group-item col-3">Adobe CS6</li>
+                                        <li class="list-group-item col-12 ">Community Manager</li>
+                                    </div>
+
+                                <li class="list-group-item text-info bg-light font-weight-bold">Compétences générales</li>
+                                    <div class="row w-100 p-0 m-auto">
+                                        <li class="list-group-item col-3">Suite office</li>
+                                        <li class="list-group-item col-3">Cegid</li>
+                                        <li class="list-group-item col-3">S.A.P.</li>
+                                        <li class="list-group-item col-3">G.M.A.O. (Odéon)</li>
+                                        <li class="list-group-item col-3">Comptabilité</li>
+                                        <li class="list-group-item col-6">Ressources humaines</li>
+                                        <li class="list-group-item col-3">Marketing</li>
+
+                                    </div>
+                            </ul>
+                        </ARTICLE>
+            <ARTICLE id="certifs" class="col-lg-12 mt-3 ">
+                <ul class="list-group">
+                    <li class="list-group-item text-light bg-dark font-weight-bold">Certificats, besoin constant d'apprendre</li>
+                    <li class="list-group-item"><a href="documents/certificatapprendre.pdf" class="text-dark">Apprenez à apprendre</a></li>
+                    <li class="list-group-item"><a href="documents/certificatweb.pdf" class="text-dark">Comprendre le Web.</a></li>
+                    <li class="list-group-item"><a href="documents/certificatlignecmd.pdf" class="text-dark">Utiliser la ligne de commande dans un Terminal.</a></li>
+                    <li class="list-group-item"><a href="documents/certificathtml.pdf" class="text-dark">Apprenez à créer votre site web avec HTML5 et CSS3</a></li>
+                    <li class="list-group-item"><a href="documents/certificatcm.pdf" class="text-dark">Les clés pour devenir Community Manager</a></li>
+                    <li class="list-group-item"><a href="#" class="text-dark">Python</a></li>
+                    <li class="list-group-item"><a href="#" class="text-dark">Mettre en place un système de veille informationnelle</a></li>
+
+                </ul>
+            </ARTICLE>
+            <ARTICLE id="hob" class="hobbies col-lg-12 col-sm-12 mt-3 ">
+                <ul class="list-group">
+                    <li class="list-group-item text-light bg-dark font-weight-bold ">Hobbies quand j'arrive à quitter les écrans!</li>
+                    <li class="list-group-item">Littérature</li>
+                    <li class="list-group-item">Nouvelles technologies</li>
+                    <li class="list-group-item">Les voyages</li>
+                    <li class="list-group-item">Passer du temps avec mes animaux</li>
+                </ul>
+            </ARTICLE>
+        </section>
+        <aside class="col-lg-7 col-sm-12 p-0">
+            <ARTICLE id="exp12" class="col-lg-12 mt-3">
+                    <ul class="list-group">
+                        <li class="list-group-item text-light bg-dark font-weight-bold ">Expériences professionnelles, enrichissement professionnel et personnel</li>
+                        <li class="list-group-item">
+                            <strong id="exp1" class="text-info bg-light font-weight-bold">De Novembre 2018 à Juin 2019</strong>
+                            <h5>COORDINATRICE PEDAGOGIQUE Ets Sylvia Terrade</h5>
+                            <p>Seconder la directrice d'une école d'esthétique relation élèves-profs-parents et professionnels de la beauté), implantation du logiciel scolaire Charlemagne et diagnostique réseaux pour étendre le Wifi avec une proposition de solution.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <strong id="exp2" class="text-info bg-light font-weight-bold">De Novembre 2017 à Mai 2018</strong>
+                            <h5>ASSISTANTE ADMINISTRATIVE DISTRIBUTION LGI</h5>
+                            <p>Mise à jour des supports SAV pour les enseignes distribuants la Marque et de la base de données</p>
+                        </li>
+                        <li class="list-group-item">
+                            <strong id="exp3" class="text-info bg-light font-weight-bold">De Juin 2017 à Novembre 2017</strong>
+                            <h5>AUTO-ENTREPRENEUR</h5>
+                            <p>Marketing Digital</p>
+                        </li>
+                        <li class="list-group-item">
+                            <strong id="exp4"class="text-info bg-light font-weight-bold">De Août 2016 à Décembre 2016</strong>
+                            <h5>ASSISTANTE COMMERCIALE ET MARKETING BTP SA POUCHAIN</h5>
+                            <p>Rédaction des appels d’offres et envois, assistante du directeur marketing, refonte de la plaquette d'entreprise et reprise des formulaires dans CEGID.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <strong id="exp5"class="text-info bg-light font-weight-bold">De Mars 2016 à Juin 2016</strong>
+                            <h5>CHARGEE DE RELATION CLIENT BTP BUREAU VERITAS</h5>
+                            <p>Ouverture d’affaire, suivi et facturation.Gestion des litiges et du personnel.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <strong id="exp6"class="text-info bg-light font-weight-bold">De Décembre 2015 à Février 2016</strong>
+                            <h5>ASSISTANTE ADMINISTRATIVE BTP EPF NPDC</h5>
+                            <p>Rédaction des appels d’offres avant publication officielle (foncier), suivi des retours.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <strong id="exp7"class="text-info bg-light font-weight-bold">De Juillet 2013 à Février 2014</strong>
+                            <h5>ASSISTANTE ADMINISTRATIVE BTP SPI</h5>
+                            <p>Gestion des données d’implantation 4G sous GMAO (ODEON).</p>
+                        </li>
+                        <li class="list-group-item">
+                            <strong id="exp8"class="text-info bg-light font-weight-bold">De Novembre 2010 à Novembre 2011</strong>
+                            <h5>ASSISTANTE TRAVAUX BTP MADIC</h5>
+                            <p>Gestion du pôle travaux en collaboration avec les conducteurs travaux, la comptabilité et les clients.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <strong id="exp9"class="text-info bg-light font-weight-bold">De Mai 2010 à Novembre 2010</strong>
+                            <h5>ASSISTANTE DE GESTION PME-PMI METTALURGIE ETS GRARE</h5>
+                            <p>Comptabilité, facturation, DEB, rapprochement bancaire et vérification du journal. Approvisionnement de matière première, inventaire des stocks, rédaction de devis.Gestion du personnel, planning, maladie, compteur d'heure. Gestion des archives.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <strong id="exp10"class="text-info bg-light font-weight-bold">De Septembre 2006 à Juillet 2009</strong>
+                            <h5>ASSISTANTE MANAGER MAINTENANCE METALLURGIE UMICORE</h5>
+                            <p>Gestion du personnel maintenance; Gestion du service maintenance, chiffre, réunion, veille réglementaire, habilitation et permis, formation astreinte. Compte rendu, correspondance interne.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <strong id="exp11"class="text-info bg-light font-weight-bold">De 2001 à 2006</strong>
+                            <p>Divers actions commerciales,Téléconseillère technique Orange sur réseau etTéléprospectrice K par K en magasin avec accueil client et salon d’expo.</p>
+
+                        </li>
+                    </ul>
+            </ARTICLE>
+            <ARTICLE id="langues" class="col-lg-12 col-sm-12 mt-3">
+                <ul class="list-group">
+                    <li class="list-group-item text-light bg-dark font-weight-bold ">Langues</li>
+                    <li class="list-group-item">Anglais scolaire et professionnel
+                        <p>Lu, écrit, parlé</p>
+                    </li>
+
+                    <li class="list-group-item">Espagnol scolaire
+                        <p>Lu, écrit, parlé</p>
+                    </li>
+                </ul>
+            </ARTICLE>
+        </aside>
+
+    </div>
+
+    <section class="bg-dark text-light p-4 text-center mt-3">
+        <h3 class="p-2">Contactez-moi</h3>
+
+        <address class="col-12 mt-3">
+                <span class="d-flex flex-column justify-content-center align-items-center ">
+                    <p class="pl-3">&#x2709; 36 Rue de Quiery, 62950 Noyelles-Godault</p>
+                    <p><a href="mailto:aurel.flament@gmail.com" class="text-light pl-3">&#64; aurel.flament@gmail.com</a></p>
+                    <p><a href="tel:+33637105984" class="text-light pl-3" >&#9742; 06 37 10 59 84</a></p>
+                </span>
+        </address>
+    </section>
+
+    <!--mise en place de mon footer avec bloc adresse et pictogrammes-->
+    <FOOTER class="footer text-light text-center font-weight-bold row mt-5 py-3">
+            <span class="col-12">@copyright -2019-CV Développeur Web Full stack- Aurélie Mortreux </span>
+
+    </FOOTER>
+
+
+<!--inclure les scripts JS en fin de body pour améliorer le chargement des pages -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
